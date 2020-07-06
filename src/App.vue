@@ -1,5 +1,7 @@
 <template>
-  <div class="app">我是根组件</div>
+  <div class="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
